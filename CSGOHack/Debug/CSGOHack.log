@@ -1,4 +1,4 @@
-﻿  Antiflash.cpp
-  BHop.cpp
-  Generating Code...
-  CSGOHack.vcxproj -> C:\Users\owent\Desktop\CSGOHack-master\Debug\CSGOHack.exe
+﻿  Glow.cpp
+c:\users\owent\documents\visual studio 2017\projects\csgohack\csgohack\glow.cpp(37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\owent\documents\visual studio 2017\projects\csgohack\csgohack\glow.cpp(38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  CSGOHack.vcxproj -> C:\Users\owent\Documents\Visual Studio 2017\Projects\CSGOHack\Debug\CSGOHack.exe

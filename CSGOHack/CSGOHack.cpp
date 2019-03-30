@@ -22,6 +22,10 @@ void InitializeCheat()
 	val.localPlayer = MemClass.readMem<uintptr_t>(val.gameModule + dwLocalPlayer);
 }
 
+void toggleCheat(thread threadToStart)
+{
+
+}
 
 int main()
 {
@@ -30,24 +34,14 @@ int main()
 	CTrigger trigger = CTrigger();
 	CAntiflash antiflash = CAntiflash();
 	CGlow glow = CGlow();
-	std::cout << "Main called" << std::endl;
-
 
 	thread tBhop(&CBhop::ToggleBhop, &bhop);
 	thread tTrigger(&CTrigger::ToggleTrigger, &trigger);
 	thread tAntiflash(&CAntiflash::ToggleAntiflash, &antiflash);
 	thread tGlow(&CGlow::ToggleGlow, &glow);
 
-
-	//bhop.toggleBhop();
-	//trigger.ToggleTrigger();
-	//antiflash.ToggleAntiflash();
-	//glow.ToggleGlow();
-
 	while (true)
 	{
-
-		Sleep(1);
+		Sleep(5);
 	}
-	return 0;
 }

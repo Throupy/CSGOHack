@@ -8,11 +8,13 @@
 
 using namespace hazedumper::netvars;
 using namespace hazedumper::signatures;
+using namespace std;
 
 CBhop::CBhop()
 {
 
 }
+
 
 void CBhop::ToggleBhop()
 {
